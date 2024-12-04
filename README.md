@@ -1,14 +1,14 @@
-# Çift Bağlı Liste Uygulaması\n
+# Çift Bağlı Liste Uygulaması \n
 Bu uygulama, C dilinde yazılmış bir çift bağlı liste (Doubly Linked List) kullanarak öğrenci bilgilerini ekleme, silme, arama ve listeleme işlemleri yapmaktadır. Uygulama, öğrenci numarası, adı, soyadı, bölümü ve sınıfı içeren düğümleri yönetebilmektedir.
 
-# Özellikler\n
+# Özellikler \n
 Liste Oluşturma: Başlangıçta boş bir liste oluşturma.
 Listeyi Yok Etme: Listeyi ve içindeki tüm düğümleri silme.
 Düğüm Ekleme: Listeye yeni bir öğrenci ekleme.
 Düğüm Silme: Öğrenci numarasına göre bir öğrenciyi listeden silme.
 Düğüm Arama: Öğrenci numarasına göre bir öğrenci arama.
 Listeyi Görüntüleme: Listeyi eklenen tüm öğrencilerle birlikte ekranda gösterme.
-# Kullanım\n
+# Kullanım \n
 Menüler ve Seçenekler
 Liste oluştur: Boş bir çift bağlı liste oluşturur.
 Listeyi yok et: Listede bulunan tüm öğrencileri siler ve listeyi yok eder.
@@ -22,7 +22,7 @@ Program başladığında kullanıcıya bir menü sunulur.
 Kullanıcı, menüdeki seçeneklerden birini seçerek işlemlerini gerçekleştirebilir.
 Seçilen işlem tamamlandığında kullanıcı tekrar menüye yönlendirilir.
 Çıkış seçeneği ile uygulama sonlandırılabilir.
-# Kod Yapısı\n
+# Kod Yapısı \n
 Node Yapısı: Her öğrenci kaydını temsil eden bir düğüm yapısı (Node). Bu yapıda öğrenci numarası, adı, soyadı, bölümü, sınıfı ve bağlantılar (prev, next) yer almaktadır.
 create_node(): Yeni bir öğrenci düğümü oluşturur.
 create_list(): Listeyi oluşturur (başlangıçta boş).
